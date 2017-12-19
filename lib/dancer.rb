@@ -5,6 +5,9 @@ class Dancer
   # includes the Dance module
   include Dance
 
+  # extends the MetaDancing module
+  extend MetaDancing
+
   # has a name
   attr_accessor :name
 
